@@ -1,0 +1,43 @@
+body{
+    background-size:cover;
+}
+.heading{
+    font-size:32px;
+    width:100%;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    box-shadow: 5px 5px 5px rgb(39, 82, 72);
+
+}
+#start{
+    font-size: medium;
+    
+}
+button:hover{
+  box-shadow: 3px 3px rgb(140, 144, 80);
+  font-size: 26px;
+}
+#status, #number_of_objects{
+ font-size: 18px;
+}
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    line-height: 3;
+    text-align: center;
+    color: grey;
+}
+canvas{
+    border: 2px solid white;
+    border-radius:10px;
+    margin-top:130px;
+    box-shadow: 5px 5px 5px white;
+}
+#instructions{
+   color:aliceblue;
+   margin-top:5px;
+   background-color:rgb(125, 201, 229) ;
+}
